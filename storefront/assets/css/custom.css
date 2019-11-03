@@ -1,0 +1,233 @@
+/*
+	Mihail custom.css
+	created 30.09.2019
+*/
+
+/* fix menu on scroll */
+#masthead.default 
+{
+  /*position:relative;*/
+  position:fixed;
+	top:0;
+  	width: 100%;
+	z-index:999;
+  	box-shadow: 0px 0px 15px rgba(0,0,0,0.45);
+}
+#masthead.fixed 
+{
+	position:fixed;
+	top:0;
+  	width: 100%;
+	z-index:999;
+  	box-shadow: 0px 0px 15px rgba(0,0,0,0.45);
+}
+
+/* header top */
+
+.kp-site-branding {
+  display:inline-block;
+  vertical-align:middle;
+  width:30%;
+  margin-bottom:0.7em;
+  
+}
+/*.kp-site-branding .custom-logo,
+.kp-site-branding img {
+  border: 1px red solid;
+  width: 400px !important;
+  height: auto !important;
+}*/
+
+.kp-site-search {
+  width: 40%;
+  margin: 0;
+  display:inline-block;
+  vertical-align:middle;
+}
+.woocommerce-product-search {
+  padding:0;
+  margin:0;
+  margin-bottom:0.7em;
+}
+.woocommerce-product-search input[type="search"] {
+  border:0;
+  border:1px #eee solid;
+  background-color: #fff;
+}
+.woocommerce-product-search button[type="submit"]{
+  display:none;
+}
+.kp-contacts-top {
+  display:inline-block;
+  vertical-align:middle;
+  width:25%;
+  text-align:right;
+  padding:0;
+}
+.kp-contacts-top .kp-contacts-top-phone {
+  color: #268b44;
+  font-size:24px;
+  font-weight:600;
+  margin-top:0.5em;
+}
+.kp-contacts-top .kp-contacts-top-phone .fa {
+  color: orange;
+}
+.site-search {display:none;}
+
+/* main menu */
+#menu-glavnoe {
+  padding: 0.3em 0;
+}
+#menu-glavnoe li a {
+  font-size:1.01em;
+}
+
+/* main */
+#main {
+  margin-top: 2.5em;
+}
+
+/* aside = secondary */
+#secondary {
+  margin-top: 2em;
+}
+
+/* cart */
+#site-header-cart {
+  margin-top: 0.4em;
+}
+
+/* dealers */
+.kp-entry-title {
+  /*min-height:55px;*/
+  font-size:22px;
+  padding:0.5em 0 0.2em 0;
+  color:#008c3e;
+}
+.kp-entry-content {
+  height:320px;
+  padding-top:1em;
+}
+.kp-entry-content a[href="/feedback/"] {
+  border: 1px #268b44 dotted;
+  color: #268b44;
+  padding:0.4em 0.7em;
+  transition: 0.2s;
+}
+.kp-entry-content a[href="/feedback/"]:hover {
+  background-color: #268b44;
+  color: #fff;
+}
+
+.category-dealers .post {
+  border: 1px #eee solid;
+  background-color: #fff !important;
+  box-shadow: 5px 8px 5px rgba(0,0,0,0.1);
+}
+.category-dealers .post:hover {
+  box-shadow: 5px 10px 5px rgba(0,0,0,0.13);
+}
+
+/* toTop button */
+#toTop {
+	background-color: #008c3e;;
+	text-align:center;
+	padding:0.7em 0.95em;
+	position:fixed;
+	bottom:1.5em;
+	right:1.5em;
+	cursor:pointer;
+	display:none;
+	color:#fff;
+  	z-index:999;
+}
+#toTop:hover {
+	opacity:0.8;
+}
+
+/* responsive */
+
+@media (max-width:1025px){	/* iPad */
+  .kp-site-branding {
+    width:20%; 
+  }
+  .kp-site-branding img {
+    width:130px;
+    height:40px;
+  }
+  .kp-site-search {
+    width: 42%;
+  }
+  .kp-contacts-top {
+    width:20%;
+  }
+  .kp-contacts-top .kp-contacts-top-phone {
+    font-size:18px;
+  }
+}
+
+@media (max-width:769px){	/* smartfon */
+  #main {
+    margin-top: 0;
+  }
+  .site-header {
+  	padding:0;
+    height:100px;
+    overflow:hidden;
+	}
+  .storefront-handheld-footer-bar {
+  	height:45px;
+    overflow:hidden;
+    font-size:60%;
+    padding:0.5em;
+  }
+  .storefront-product-section .section-title {
+    margin-top: 0.8em;
+  }
+  .storefront-product-section .homepage-discount {
+    display:none;
+  }
+  .kp-site-branding {
+    width:100%;
+    margin-bottom:0.2em;
+  }
+  .kp-site-branding img {
+    width:120px;
+    height:40px;
+  }
+  .kp-site-search {
+    display:none;
+  }
+  .kp-contacts-top {
+    width:100%;
+    padding:0;
+    margin:0;
+    text-align:left;
+    margin-top:-5px;
+  }
+
+  button.menu-toggle {
+    top:0;
+    z-index:1001;
+  }
+  .kp-contacts-top .kp-contacts-top-phone {
+    font-size:16px;
+  }
+   #toTop {
+      bottom:3.5em;
+      right:0.7em;
+  }
+}
+@media (max-width:568px){	/* phone */
+  
+  .kp-contacts-top .kp-contacts-top-phone {
+    font-size:14px;
+  }
+  button.menu-toggle {
+    top:0;
+    z-index:1001;
+  }
+ 
+}
+
