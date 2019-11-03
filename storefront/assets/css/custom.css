@@ -66,12 +66,24 @@
 }
 .kp-contacts-top .kp-contacts-top-phone {
   color: #268b44;
-  font-size:24px;
+  font-size:22px;
   font-weight:600;
   margin-top:0.5em;
 }
 .kp-contacts-top .kp-contacts-top-phone .fa {
   color: orange;
+}
+.kp-contacts-top .kp-contacts-top-phone .fa-instagram,
+.kp-contacts-top .kp-contacts-top-phone .fa-facebook-square {
+  margin-left:4px;
+  font-size:24px;
+}
+.kp-contacts-top .kp-contacts-top-phone .fa-instagram,
+.kp-contacts-top .kp-contacts-top-phone .fa-facebook-square {
+  color: #f34168;
+}
+.kp-contacts-top .kp-contacts-top-phone .fa-facebook-square {
+  color: rgb(41, 75, 150);
 }
 .site-search {display:none;}
 

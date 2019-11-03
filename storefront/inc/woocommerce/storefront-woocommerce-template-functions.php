@@ -96,8 +96,12 @@ if ( ! function_exists( 'storefront_product_search' ) ) {
 			<div class="kp-contacts-top">
               	<p class="kp-contacts-top-phone">
 			  		<i class="fa fa-phone"></i> <a href="tel:+74955105353">+7(495)510-53-53</a>
-					<a href="https://www.instagram.com/komplektpremier1/" target="_blank" style="margin-left:4px"><i class="fa fa-instagram"></i></a>
-					<a href="https://www.facebook.com/KomplektPremier1/?eid=ARAjvZCG4yP5s987Aa3hL2InkSGHkPAB2QNKindqnkbpey3O86tysH36lySSuhuI7bHY_NzH7_gYIV2i" target="_blank" style="margin-left:3px"><i class="fa fa-facebook"></i></a>
+					<a href="https://www.instagram.com/komplektpremier1/" target="_blank">
+						<i class="fa fa-instagram"></i>
+					</a>
+					<a href="https://www.facebook.com/KomplektPremier1/?eid=ARAjvZCG4yP5s987Aa3hL2InkSGHkPAB2QNKindqnkbpey3O86tysH36lySSuhuI7bHY_NzH7_gYIV2i" target="_blank">
+						<i class="fa fa-facebook-square"></i>
+					</a>
 				</p>
             </div>
 			<div class="site-search" style="display:none;">	<!-- hidden by Mihail 26-09-19 -->
