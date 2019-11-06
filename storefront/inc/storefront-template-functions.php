@@ -572,32 +572,40 @@ if ( ! function_exists( 'storefront_product_categories' ) ) {
 
 /*Mihail add 21-10-19 Осенний ценопад на главной*/
 echo '<div style="margin-top:6em;">
-<div style="display:block;background-color:#f9f9f9;border:2px #008c3e solid;padding:25px;margin-bottom:20px;text-align:center;box-shadow: 3px 10px 3px rgba(0,0,0,0.1)">
+	<div class="main-page-action-block">
 
-<h2 style="color: #008c3e; text-align:center;">ОСЕННИЙ ЦЕНОПАД от Комплект Премьер</h2>
+		<h2>ОСЕННИЙ ЦЕНОПАД от Комплект Премьер</h2>
 
-<h3 style="color: #dc3545; text-align:center;">Ограниченные партии резных молдингов, молдингов и декоров ПВХ по специальным ценам</h3>
+		<h3>Ограниченные партии резных молдингов, молдингов и декоров ПВХ, доска и шпон дуба камерной сушки по специальным ценам</h3>
 
-<div style="display:inline-block; padding:20px; border:1px #f0f0f0 solid;margin-bottom:15px;background-color:#fff;box-shadow: 3px 7px 3px rgba(0,0,0,0.1)">
-<h4>Молдинги резные из массива бука</h4>
-<p>Придают интерьеру изысканный и роскошный вид. Они не только преображают стены и потолки, но и выполняют в помещении конкретные практические функции. С их помощью комната удобно разделяется на отдельные зоны. Обрамленные ими окна, двери, арки и камины становятся более аккуратными и приобретают завершенный вид.</p>
+		<div class="action-item">
+			<h4>Молдинги резные из массива бука</h4>
+			<p>Придают интерьеру изысканный и роскошный вид. Они не только преображают стены и потолки, но и выполняют в помещении конкретные практические функции. С их помощью комната удобно разделяется на отдельные зоны. Обрамленные ими окна, двери, арки и камины становятся более аккуратными и приобретают завершенный вид.</p>
+			<div class="price-download-block">
+				<a href="/wp-content/uploads/2019/10/sales-molding-wood-10-19.pdf" target="_blank" style="background-color:#dc3545;color:#fff;padding:8px 12px;"><i class="fa fa-file-pdf-o" style="margin-right:10px;"></i>Скачать прайс</a>
+			</div>
+		</div>
 
-<div style="display:block; margin-bottom:10px;">
-<a href="/wp-content/uploads/2019/10/sales-molding-wood-10-19.pdf" target="_blank" style="background-color:#dc3545;color:#fff;padding:8px 12px;"><i class="fa fa-file-pdf-o" style="margin-right:10px;"></i>Скачать прайс</a>
-</div>
-</div>
+		<div class="action-item">
+			<h4>Молдинги и декоры ПВХ</h4>
+			<p>Используются в качестве декорирования фасадных частей мебели изготавливаемых с использованием финишного покрытия пленкой ПВХ<br> и под окраску эмалью с эффектом Декапе<br> (нанесение различных цветов патины).</p>
+			<div class="price-download-block">
+				<a href="/wp-content/uploads/2019/10/sales-molding-decore-pvh-10-19.pdf" target="_blank" style="background-color:#dc3545;color:#fff;padding:8px 12px;"><i class="fa fa-file-pdf-o" style="margin-right:10px;"></i>Скачать прайс</a>
+			</div>
+		</div>
 
-<div style="display:inline-block; padding:20px; border:1px #f0f0f0 solid;margin-bottom:15px;background-color:#fff;box-shadow: 3px 7px 3px rgba(0,0,0,0.1)">
+		<div class="action-item" >
+			<h4>Распродажа складских запасов леса</h4>
+			<p>Обрезная доска и шпон дуба камерной сушки по специальным ценам</p>
+			<p>Доска Дуба обрезная камерной сушки 30 мм, Сорт АВ ( от 1 м до 1.9 м) м3</p>
+			<p>Шпон Дуба камерной сушки 0,6 мм Сорт 1 (0,5 - 2 м), кв.м</p>
+			<p>Вся продукция в полиэтиленовой обертке, защищена от влаги</p>
+			<div class="price-download-block">
+				<a href="/wp-content/uploads/2019/11/sales-dub-board-shpon-05-11.pdf" target="_blank" style="background-color:#dc3545;color:#fff;padding:8px 12px;"><i class="fa fa-file-pdf-o" style="margin-right:10px;"></i>Скачать прайс</a>
+			</div>
+		</div>
 
-<h4>Молдинги и декоры ПВХ</h4>
-<p>Используют в качестве декорирования фасадных частей мебели изготавливаемых с использованием финишного покрытия пленкой ПВХ и под окраску эмалью с эффектом Декапе (нанесение различных цветов патины).</p>
-
-<div style="display:block; margin-bottom:10px;">
-<a href="/wp-content/uploads/2019/10/sales-molding-decore-pvh-10-19.pdf" target="_blank" style="background-color:#dc3545;color:#fff;padding:8px 12px;"><i class="fa fa-file-pdf-o" style="margin-right:10px;"></i>Скачать прайс</a>
-</div>
-</div>
-
-</div>
+	</div>
 </div>';
 /* end add */
           
