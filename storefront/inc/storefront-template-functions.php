@@ -576,7 +576,7 @@ echo '<div style="margin-top:6em;">
 
 		<h2>ОСЕННИЙ ЦЕНОПАД от Комплект Премьер</h2>
 
-		<h3>Ограниченные партии резных молдингов, молдингов и декоров ПВХ, доска и шпон дуба камерной сушки по специальным ценам</h3>
+		<h3>Ограниченные партии резных молдингов, молдингов и декоров ПВХ по специальным ценам</h3>
 
 		<div class="action-item">
 			<h4>Молдинги резные из массива бука</h4>
@@ -590,21 +590,9 @@ echo '<div style="margin-top:6em;">
 			<h4>Молдинги и декоры ПВХ</h4>
 			<p>Используются в качестве декорирования фасадных частей мебели изготавливаемых с использованием финишного покрытия пленкой ПВХ<br> и под окраску эмалью с эффектом Декапе<br> (нанесение различных цветов патины).</p>
 			<div class="price-download-block">
-				<a href="/wp-content/uploads/2019/10/sales-molding-decore-pvh-10-19.pdf" target="_blank" style="background-color:#dc3545;color:#fff;padding:8px 12px;"><i class="fa fa-file-pdf-o" style="margin-right:10px;"></i>Скачать прайс</a>
+				<a href="/wp-content/uploads/2019/11/sales-molding-decore-pvh-china-11-19.pdf" target="_blank" style="background-color:#dc3545;color:#fff;padding:8px 12px;"><i class="fa fa-file-pdf-o" style="margin-right:10px;"></i>Скачать прайс</a>
 			</div>
 		</div>
-
-		<div class="action-item" >
-			<h4>Распродажа складских запасов леса</h4>
-			<p>Обрезная доска и шпон дуба камерной сушки по специальным ценам</p>
-			<p>Доска Дуба обрезная камерной сушки 30 мм, Сорт АВ ( от 1 м до 1.9 м) м3</p>
-			<p>Шпон Дуба камерной сушки 0,6 мм Сорт 1 (0,5 - 2 м), кв.м</p>
-			<p>Вся продукция в полиэтиленовой обертке, защищена от влаги</p>
-			<div class="price-download-block">
-				<a href="/wp-content/uploads/2019/11/sales-dub-board-shpon-05-11.pdf" target="_blank" style="background-color:#dc3545;color:#fff;padding:8px 12px;"><i class="fa fa-file-pdf-o" style="margin-right:10px;"></i>Скачать прайс</a>
-			</div>
-		</div>
-
 	</div>
 </div>';
 /* end add */
